@@ -1,6 +1,6 @@
 from testrail import *
 
-client = APIClient('https://nook.testrail.com/')
+client = APIClient('your_testrail_url')
 client.user = "your_account"
 client.password = "your_password"
 
